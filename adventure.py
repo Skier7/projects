@@ -18,9 +18,9 @@ elif path == "right":
         if IN == "left":
             print(f"you come face to face with a monster and he eats you and you die, better luck next time {name}")
         if IN == "right":
-            print(f"you turn right and meat a frendly dog, his name is Joey, you also find gold and win the game, good job {name}")
+            print(f"you turn right and meat a friendly dog, his name is Joey, you also find gold and win the game, good job {name}")
     elif house == "stay":
-        car=input("you stay outside and look over and see a bright orenge car, what do you do? get in/stay")
+        car=input("you stay outside and look over and see a bright orange car, what do you do? get in/stay")
         if car == "get in":
             drive=input("you get in the car, turn the key and start driving, you come to a intersection, witch way do you go? left/right")
             if drive == "left":
