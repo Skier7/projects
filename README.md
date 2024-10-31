@@ -1,1 +1,1 @@
-Hello, this is my first python project, it's a simple adventure game, hope you enjoy            
+Hello, hear you will find my python projects, hope you enjoy
