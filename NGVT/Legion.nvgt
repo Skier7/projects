@@ -1,0 +1,62 @@
+#include "form.nvgt"
+#include "speech.nvgt"
+const string cmd1=("1. assume nothing");
+const string cmd2=("2. how you do anything is how you do everything");
+const string cmd3=("3. Master your surroundings");
+const string cmd4=("4. never make it personal");
+const string cmd5=("5. If you dont know what to do, do nothing");
+const string cmd6=("6. Question orders");
+const string cmd7=("7. One mission at a time");
+const string cmd8=("8. Never kill a kid");
+const string cmd9=("9. Always play offence");
+const string cmd10=("10. Never let an innosant die");
+const string cmd11=("11. Only do things with a point");
+void main(){
+    audio_form f;
+    f.create_window("The commands are rules to live by, tab through the opptions then press enter or space to actavate");
+    wait(500);
+    int f_d = f.create_button("Done");
+    f.focus(f_d);
+    int f_All = f.create_button("All commands");
+    int f_L1 = f.create_button("Command 1");
+    int f_L2=f.create_button("Command 2");
+    int f_L3 = f.create_button("Command 3");
+    int f_L4 = f.create_button("Command 4");
+    int f_L5 = f.create_button("Command5");
+    int f_L6 = f.create_button("Command6");
+    int f_L7 = f.create_button("Command7");
+    int f_L8 = f.create_button("Command8");
+    int f_L9 = f.create_button("Command9");
+    int f_L10 = f.create_button("Command 10");
+    int f_L11 = f.create_button("command11");
+    while (true) {
+        wait(5);
+        f.monitor();
+        if (f.is_pressed(f_d))
+            exit();
+        else if (f.is_pressed(f_L1))
+            speak(cmd1);
+        else if (f.is_pressed(f_L2))
+            speak(cmd2);
+        else if(f.is_pressed(f_L3))
+            speak(cmd3);
+        else if (f.is_pressed(f_L4))
+            speak(cmd4);
+        else if (f.is_pressed(f_L5))
+            speak(cmd5);
+        else if (f.is_pressed(f_L6))
+            speak(cmd6);
+        else if (f.is_pressed(f_L7))
+            speak(cmd7);
+        else if (f.is_pressed(f_L8))
+            speak(cmd8);
+        else if (f.is_pressed(f_L9))
+            speak(cmd9);
+        else if (f.is_pressed(f_L10))
+            speak(cmd10);
+        else if (f.is_pressed(f_L11))
+            speak(cmd11);
+        else if(f.is_pressed(f_All))
+            speak("all legion commands are" +cmd1 +cmd2 +cmd3 +cmd4 +cmd5 +cmd6 +cmd7 +cmd8 +cmd9 +cmd10 +cmd11);
+    }
+}

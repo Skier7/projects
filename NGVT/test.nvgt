@@ -1,0 +1,6 @@
+#include "speech.nvgt"
+void main(){
+    alert("testing", "Hello world");
+    alert("worning!", "my name is Joshua and i will take over the world");
+    speak("hello nerds");
+}

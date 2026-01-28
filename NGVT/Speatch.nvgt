@@ -1,0 +1,9 @@
+#include "speech.nvgt"
+void main(){
+    speak("hello nerds");
+    sleep(500);
+    alert("Worning", "Hello from the NVGT speech include!");
+    alert("r2d2", "Error 404, your shit doesn't work, starting selff distruction");
+    sleep(500);
+    speak("good buy nerds");
+}

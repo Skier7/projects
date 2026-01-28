@@ -1,0 +1,12 @@
+#include "speech.nvgt"
+void main(){
+    alert("welcome", "welcome to the number guessing game, inorder to win you need to guess a 1, good luck");
+    sleep(500);
+    int dice = random(1, 10);
+    if(dice == 1)
+        speak("Good job, you got"+dice+". You win!");
+    else if(dice < 4 )
+        speak("You got "+dice+"! tso cloce, try again");
+    else
+        speak("You got a"+dice+", better luck next time");
+}
