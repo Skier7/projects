@@ -10,4 +10,4 @@ while True:
         q=int(input("how many would you like?"))
         total+=prices[options]*q
     else:
-        print("sorry but we don't have that, try again")
+        print("sorry but we don't have that, try again or get out!")
