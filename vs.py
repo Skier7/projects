@@ -1,0 +1,1 @@
+print("hello nerd, this is a random program that doesn't do jack shit, you were fooled, hahahahahahahahahahahahahaha.")
