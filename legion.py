@@ -1,7 +1,7 @@
+Legion=["1. assume nothing", "2. how you do anything is how you do everything", "3. Master your surroundings", "4. Never make it personal", "5. if you don't know what to do, do nothing", "6. Question orders", "7. One mission at a time", "8. Never kill a kid", "9. Always play offence", "10. Never let an innocent die", "11. Only do things with a point"]
 print("Hello, the commands are rules to live by")
-Legion=["1. asume nothing", "2. how you do anything is how you do everything", "3. master your surroundings", "4. never make it persinal", "5. if you don't know what to do, do nothing", "6. question orders", "7. one mission at a time", "8. never kill a kid", "9. always play offence", "10. never let an innocent die"]
 while True:
-    cmd=input("choose a number between 1 and 10, all to list all commands or q to quit")
+    cmd=input("choose a number between 1 and 11, all to list all commands or q to quit")
     if cmd == "1":
         print(Legion[0])
     elif cmd == "2":
@@ -22,14 +22,14 @@ while True:
         print(Legion[8])
     elif cmd == "10":
         print(Legion[9])
+    elif cmd== "11":
+        print(Legion[10])
     elif cmd == "all":
         print("all legion commands are," ,Legion)
     elif cmd == "Q" or cmd =="q":
         end=input("you are about to quit, are you sure? y/n")
         if end == "y":
-            for x in range(5,0,-1):
-                print(x)
-            print("buy")
+            print("piece")
             quit()
         elif end == "no":
             print()

@@ -1,5 +1,4 @@
 import random
-print("you will be guessing a number in the next step. choose the number range you want")
 lowest_num=int(input("enter the 1st number"))
 highest_num=int(input("enter the 2nd number"))
 answer=random.randint(lowest_num, highest_num)
@@ -23,3 +22,4 @@ while is_running:
             is_running = False
     else:
         print("Invalid guess")
+    
