@@ -11,7 +11,7 @@ if path == "left":
     elif bear == "go back":
         for x in range(5,-1,-1):
             print(x)
-        print("You go back and you lose, better luck next time")
+        print(f"You go back and you lose, better luck next time {name}")
 elif path == "right":
     house=input("You come to a big house, do you want to go in or stay outside, go in/stay")
     if house == "go in":
