@@ -1,0 +1,1 @@
+Create a folder in the main Top Speed folder called Tracks if it doesn't already exist and move the folders with the .tsm files into it.
