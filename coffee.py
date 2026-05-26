@@ -9,12 +9,12 @@ if name == "kile" or name == "izzy" or name == "ben":
     else:
         print("you are vary good, come in")
 while True:
-    order=input("welcom to my coffee shop, what do you want? we have black, donut, icecream, and hot chocolate, when you are finnished, type done")
+    order=input("welcome to my coffee shop, what do you want? We have black, donut, icecream, and hot chocolate, when you are finnished, type done")
     if order == "done":
         print(f"your order will be ready soon, your total is ${total}")
         quit()
     if order in menu:
-        quantity=int(input("how many would you like?"))
-        total+=menu[order]*quantity
+        q=int(input("how many would you like?"))
+        total+=menu[order]*q
     else:
         print("we don't have that, please try again")
