@@ -1,0 +1,17 @@
+enginesound=2003macengine.wav
+;throttlesound=
+startsound=2003macstartup.wav
+hornsound=2003machorn.wav
+;backfiresound=
+crashsound=builtin4
+brakesound=builtin8
+acceleration=4
+deceleration=30
+topspeed=40000
+idlefreq=38000
+topfreq=100000
+shiftfreq=68000
+numberofgears=10
+steering=200
+steeringfactor=110
+haswipers=1

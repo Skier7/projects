@@ -1,0 +1,17 @@
+enginesound=ng diesel engine.wav
+;throttlesound=
+startsound=ng diesel start.wav
+hornsound=builtin7
+;backfiresound=
+crashsound=builtin4
+brakesound=builtin6
+acceleration=24
+deceleration=65
+topspeed=32000
+idlefreq=9500
+topfreq=95000
+shiftfreq=82000
+numberofgears=5
+steering=321
+steeringfactor=95
+haswipers=1
