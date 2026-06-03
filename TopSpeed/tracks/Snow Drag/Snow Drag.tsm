@@ -1,6 +1,6 @@
 [meta]
-name = Drag strip
-version = 4
+name = Snow Drag
+version = 1
 weather = default
 ambience = noambience
 
@@ -24,25 +24,25 @@ reverb_gain = 0.1
 
 [segment: seg1]
 type = straight
-surface = asphalt
-noise = jet
+surface = snow
+noise = none
 length = 2000
 width = 50
 height = 0
 room = outdoor_default
 
 [segment: seg2]
-type = hard_right
-surface = asphalt
+type = straight
+surface = snow
 noise = none
-length = 500
+length = 1000
 width = 50
 height = 0
 room = outdoor_default
 
 [segment: seg3]
 type = straight
-surface = asphalt
+surface = snow
 noise = none
 length = 1000
 width = 50
@@ -50,28 +50,28 @@ height = 0
 room = outdoor_default
 
 [segment: seg4]
-type = hairpin_right
-surface = asphalt
+type = straight
+surface = snow
 noise = none
-length = 350
+length = 1000
+width = 50
+height = 0
+room = outdoor_default
+
+[segment: seg5]
+type = straight
+surface = snow
+noise = none
+length = 1000
 width = 50
 height = 0
 room = outdoor_default
 
 [segment: seg6]
-type = left
-surface = asphalt
-noise = helicopter
-length = 200
-width = 50
-height = 0
-room = outdoor_default
-
-[segment: seg7]
 type = straight
-surface = asphalt
+surface = snow
 noise = crowd
-length = 2000
+length = 1000
 width = 50
 height = 0
 room = outdoor_default
