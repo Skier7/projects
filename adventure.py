@@ -7,11 +7,11 @@ path=input("You are walking along a path, you come to the end, whitch way do you
 if path == "left":
     bear=input("You meet a big bear, what would you like to do? fight/go back")
     if bear == "fight":
-        print("You fight the bair, you try your best, but the bair wins and you die")
+        print(f"You fight the bair, you try your best, but the bair wins and you die, better luck next time {name}")
     elif bear == "go back":
         for x in range(5,-1,-1):
             print(x)
-        print(f"You go back and you lose, better luck next time {name}")
+        print("You go back and you lose, better luck next time")
 elif path == "right":
     house=input("You come to a big house, do you want to go in or stay outside, go in/stay")
     if house == "go in":
@@ -19,7 +19,7 @@ elif path == "right":
         if IN == "left":
             print(f"You come face to face with a monster and he eats you and you die, better luck next time {name}")
         if IN == "right":
-            print(f"You turn right and meat a friendly dog, his name is Joey, you also find gold and win the game, good job {name}")
+            print(f"You turn right and meat a friendly dog, his name is Steve, you also find gold and win the game, good job {name}")
     elif house == "stay":
         car=input("You stay outside and look over and see a bright orange car, what do you do? get in/stay")
         if car == "get in":
