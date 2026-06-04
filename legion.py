@@ -1,4 +1,4 @@
-Legion=["1. assume nothing", "2. how you do anything is how you do everything", "3. Master your surroundings", "4. Never make it personal", "5. if you don't know what to do, do nothing", "6. Question orders", "7. One mission at a time", "8. Never kill a kid", "9. Always play offence", "10. Never let an innocent die", "11. Only do things with a point"]
+Legion=["1. assume nothing", "2. how you do anything is how you do everything", "3. Master your surroundings", "4. Never make it personal", "5. if you don't know what to do, do nothing", "6. Question orders", "7. One mission at a time", "8. Never kill a kid", "9. Always play offense", "10. Never let an innocent die", "11. Only do things with a point"]
 print("Hello, the commands are rules to live by")
 while True:
     cmd=input("choose a number between 1 and 11, all to list all commands or q to quit")
