@@ -4,7 +4,7 @@ while name == ""or name ==" ":
     name=input("enter your name")    
 print(f"hello {name}")
 while True:
-    color=input("what color is best? green, red, orenge, pink or gray, q to quit")
+    color=input("what color is best? green, red, orange, pink or gray, q to quit")
     if color == "q":
         print("peace")
         quit()  
@@ -12,7 +12,7 @@ while True:
         print("you made the right choice")
     elif color == "red":
         print("this is also a good choice")
-    elif color == "orenge":
+    elif color == "orange":
         print("this is the best!")
     elif color == "pink":
         reason=input("why do you like pink so much?")
