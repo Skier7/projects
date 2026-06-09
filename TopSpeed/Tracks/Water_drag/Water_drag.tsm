@@ -1,6 +1,6 @@
 [meta]
 name = Water Drag
-version = 1
+version = 2
 weather = default
 ambience = noambience
 
@@ -25,9 +25,9 @@ reverb_gain = 0.1
 [segment: seg1]
 type = straight
 surface = water
-noise = jet
+noise = river
 length = 2000
-width = 50
+width = 70
 height = 0
 room = outdoor_default
 
@@ -36,7 +36,7 @@ type = hard_right
 surface = water
 noise = none
 length = 500
-width = 50
+width = 70
 height = 0
 room = outdoor_default
 
@@ -45,7 +45,7 @@ type = straight
 surface = water
 noise = none
 length = 1000
-width = 50
+width = 70
 height = 0
 room = outdoor_default
 
@@ -54,16 +54,16 @@ type = hairpin_right
 surface = water
 noise = none
 length = 350
-width = 50
+width = 70
 height = 0
 room = outdoor_default
 
 [segment: seg6]
 type = left
 surface = water
-noise = helicopter
+noise = none
 length = 200
-width = 50
+width = 70
 height = 0
 room = outdoor_default
 
@@ -72,7 +72,7 @@ type = straight
 surface = water
 noise = crowd
 length = 2000
-width = 50
+width = 70
 height = 0
 room = outdoor_default
 
