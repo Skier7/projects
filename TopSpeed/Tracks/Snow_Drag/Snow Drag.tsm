@@ -1,6 +1,6 @@
 [meta]
 name = Snow Drag
-version = 1
+version = 2
 weather = default
 ambience = noambience
 
@@ -25,7 +25,7 @@ reverb_gain = 0.1
 [segment: seg1]
 type = straight
 surface = snow
-noise = none
+noise = jet
 length = 2000
 width = 50
 height = 0
@@ -52,7 +52,7 @@ room = outdoor_default
 [segment: seg4]
 type = straight
 surface = snow
-noise = none
+noise = helicopter
 length = 1000
 width = 50
 height = 0
