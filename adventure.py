@@ -15,7 +15,7 @@ if path == "left":
 elif path == "right":
     house=input("You come to a big house, do you want to go in or stay outside, go in/stay")
     if house == "go in":
-        IN=input("You are inside the house, you go down a dark hallway and come to the end, whitch way do you go, left/rightt?")
+        IN=input("You are inside the house, you go down a dark hallway and come to the end, whitch way do you go, left/right?")
         if IN == "left":
             print(f"You come face to face with a monster and he eats you and you die, better luck next time {name}")
         if IN == "right":
