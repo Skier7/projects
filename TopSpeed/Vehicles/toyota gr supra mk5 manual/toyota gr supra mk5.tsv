@@ -10,8 +10,8 @@ start=suprastart.wav
 horn=builtin4
 brake=builtin4
 crash=builtin1
-idle_freq=7000
-top_freq=55000
+idle_freq=6000
+top_freq=58000
 shift_freq=40000
 pitch_curve_exponent=0.80
 [general]
@@ -35,9 +35,9 @@ idle_torque=180
 redline_torque=450
 power_factor=1.45
 [engine_rot]
-inertia_kgm2=0.85
-coupling_rate=25
-friction_base_nm=25
+inertia_kgm2=1.30
+coupling_rate=20
+friction_base_nm=20
 friction_linear_nm_per_krpm=0
 friction_quadratic_nm_per_krpm2=0
 idle_control_window_rpm=200
