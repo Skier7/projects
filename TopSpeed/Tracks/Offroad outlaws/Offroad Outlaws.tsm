@@ -1,6 +1,6 @@
 [meta]
 name = Offroad Outlaws
-version = 1
+version = 2
 weather = default
 ambience = noambience
 
@@ -43,7 +43,7 @@ room = outdoor_default
 [segment: seg3]
 type = straight
 surface = asphalt
-noise = none
+noise = runway
 length = 900
 width = 50
 height = 0
@@ -61,7 +61,7 @@ room = outdoor_default
 [segment: seg6]
 type = straight
 surface = asphalt
-noise = none
+noise = helicopter
 length = 350
 width = 50
 height = 0
@@ -70,7 +70,7 @@ room = outdoor_default
 [segment: seg7]
 type = straight
 surface = water
-noise = none
+noise = helicopter
 length = 150
 width = 50
 height = 0
@@ -79,7 +79,7 @@ room = outdoor_default
 [segment: seg8]
 type = straight
 surface = asphalt
-noise = none
+noise = helicopter
 length = 200
 width = 50
 height = 0
