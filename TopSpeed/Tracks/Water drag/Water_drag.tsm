@@ -1,6 +1,6 @@
 [meta]
 name = Water Drag
-version = 2
+version = 3
 weather = default
 ambience = noambience
 
@@ -32,10 +32,10 @@ height = 0
 room = outdoor_default
 
 [segment: seg2]
-type = hard_right
+type = straight
 surface = water
 noise = none
-length = 500
+length = 1000
 width = 70
 height = 0
 room = outdoor_default
@@ -50,29 +50,10 @@ height = 0
 room = outdoor_default
 
 [segment: seg4]
-type = hairpin_right
-surface = water
-noise = none
-length = 350
-width = 70
-height = 0
-room = outdoor_default
-
-[segment: seg6]
-type = left
-surface = water
-noise = none
-length = 200
-width = 70
-height = 0
-room = outdoor_default
-
-[segment: seg7]
 type = straight
 surface = water
 noise = crowd
-length = 2000
+length = 1000
 width = 70
 height = 0
 room = outdoor_default
-
