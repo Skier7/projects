@@ -2,23 +2,23 @@
 
 [meta]
 name=Rofl copter
-version=1.0
+version=1.1
 description=This is Microsoft Sam's roflcopter.
 
 [sounds]
-engine=soi.mp3
-start=start.mp3
-horn=beep.mp3
-brake=builtin4
-crash=crash.mp3
-idle_freq=10000
+engine=roflengine.wav
+start=roflstart.wav
+horn=roflhorn.wav
+brake=roflbrake.wav
+crash=roflcrash.wav
+idle_freq=15000
 top_freq=50000
 shift_freq=38000
 pitch_curve_exponent=0.85
 
 [general]
 surface_traction_factor=0.10
-max_speed=350
+max_speed=500
 has_wipers=0
 
 [engine]
@@ -28,13 +28,13 @@ rev_limiter=6900
 auto_shift_rpm=6500
 engine_braking=0.65
 mass_kg=2000
-drivetrain_efficiency=0.95
+drivetrain_efficiency=0.90
 launch_rpm=3000
 
 [torque]
 engine_braking_torque=450
-peak_torque=1000
-peak_torque_rpm=5000
+peak_torque=3000
+peak_torque_rpm=2500
 idle_torque=150
 redline_torque=2500
 power_factor=1.00
@@ -79,7 +79,7 @@ final_drive=3.00
 reverse_max_speed=100
 reverse_power_factor=0.60
 reverse_gear_ratio=2.90
-brake_strength=1.00
+brake_strength=5.00
 
 [gears]
 number_of_gears=6
