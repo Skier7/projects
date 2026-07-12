@@ -19,7 +19,7 @@ pitch_curve_exponent=0.85
 [general]
 surface_traction_factor=0.10
 max_speed=500
-has_wipers=0
+has_wipers=1
 
 [engine]
 idle_rpm=900
@@ -27,7 +27,7 @@ max_rpm=7000
 rev_limiter=6900
 auto_shift_rpm=6500
 engine_braking=0.65
-mass_kg=2000
+mass_kg=1500
 drivetrain_efficiency=0.90
 launch_rpm=3000
 
@@ -65,7 +65,7 @@ driveline_drag_nm=0.15
 driveline_viscous_drag_nm_per_krpm=0.025
 
 [torque_curve]
-preset=muscle_v8
+preset=supercar_turbo
 5000rpm=600
 7000rpm=450
 
@@ -75,7 +75,7 @@ supported_types=manual
 shift_on_demand=0
 
 [drivetrain]
-final_drive=3.00
+final_drive=2.45
 reverse_max_speed=100
 reverse_power_factor=0.60
 reverse_gear_ratio=2.90
@@ -83,14 +83,13 @@ brake_strength=5.00
 
 [gears]
 number_of_gears=6
-gear_ratios=3.50,2.95,2.50,1.40,1.20,1.00
-
+gear_ratios=3.50,2.95,2.50,1.40,1.05,0.80
 [steering]
 steering_response=1.50
-wheelbase=2.70
+wheelbase=2.75
 max_steer_deg=60
-high_speed_stability=0.70
-high_speed_steer_gain=0.70
+high_speed_stability=0.75
+high_speed_steer_gain=0.75
 high_speed_steer_start_kph=150
 high_speed_steer_full_kph=250
 
@@ -100,7 +99,7 @@ lateral_grip=1.00
 combined_grip_penalty=0.60
 slip_angle_peak_deg=6.0
 slip_angle_falloff=1.5
-turn_response=1.00
+turn_response=2.5
 mass_sensitivity=0.80
 downforce_grip_gain=0.35
 
