@@ -22,7 +22,7 @@ storm_gain = 0
 room_preset = outdoor_open
 reverb_gain = 0.1
 
-[segment: seg1]
+[segment: s1]
 type = straight
 surface = asphalt
 noise = none
@@ -31,7 +31,7 @@ width = 50
 height = 0
 room = outdoor_default
 
-[segment: seg2]
+[segment: s2]
 type = hairpin_right
 surface = asphalt
 noise = none
@@ -40,7 +40,7 @@ width = 50
 height = 0
 room = outdoor_default
 
-[segment: seg3]
+[segment: s3]
 type = straight
 surface = asphalt
 noise = runway
@@ -49,7 +49,7 @@ width = 50
 height = 0
 room = outdoor_default
 
-[segment: seg4]
+[segment: s4]
 type = hard_left
 surface = asphalt
 noise = none
@@ -58,7 +58,7 @@ width = 50
 height = 0
 room = outdoor_default
 
-[segment: seg6]
+[segment: s6]
 type = straight
 surface = asphalt
 noise = helicopter
@@ -67,7 +67,7 @@ width = 50
 height = 0
 room = outdoor_default
 
-[segment: seg7]
+[segment: s7]
 type = straight
 surface = water
 noise = helicopter
@@ -76,7 +76,7 @@ width = 50
 height = 0
 room = outdoor_default
 
-[segment: seg8]
+[segment: s8]
 type = straight
 surface = asphalt
 noise = helicopter
@@ -85,7 +85,7 @@ width = 50
 height = 0
 room = outdoor_default
 
-[segment: seg9]
+[segment: s9]
 type = hard_right
 surface = asphalt
 noise = none
@@ -94,7 +94,7 @@ width = 50
 height = 0
 room = outdoor_default
 
-[segment: seg10]
+[segment: s10]
 type = straight
 surface = asphalt
 noise = none
@@ -102,8 +102,10 @@ length = 900
 width = 50
 height = 0
 room = outdoor_default
+pit=pit_entry
+pit=pit_exit
 
-[segment: seg11]
+[segment: s11]
 type = hairpin_left
 surface = asphalt
 noise = none
@@ -112,7 +114,7 @@ width = 50
 height = 0
 room = outdoor_default
 
-[segment: seg12]
+[segment: s12]
 type = straight
 surface = asphalt
 noise = crowd
