@@ -85,13 +85,13 @@ brake_strength=5.00
 number_of_gears=6
 gear_ratios=3.50,2.95,2.50,1.40,1.05,0.80
 [steering]
-steering_response=1.50
+steering_response=5.0
 wheelbase=2.75
 max_steer_deg=60
-high_speed_stability=0.75
-high_speed_steer_gain=0.75
-high_speed_steer_start_kph=150
-high_speed_steer_full_kph=250
+high_speed_stability=0.90
+high_speed_steer_gain=0.90
+high_speed_steer_start_kph=100
+high_speed_steer_full_kph=200
 
 [tire_model]
 tire_grip=1.00
@@ -100,14 +100,14 @@ combined_grip_penalty=0.60
 slip_angle_peak_deg=6.0
 slip_angle_falloff=1.5
 turn_response=2.5
-mass_sensitivity=0.80
+mass_sensitivity=0.90
 downforce_grip_gain=0.35
 
 [dynamics]
 corner_stiffness_front=1.20
 corner_stiffness_rear=1.20
 yaw_inertia_scale=1.00
-steering_curve=1.00
+steering_curve=1.50
 transient_damping=1.00
 
 [dimensions]
