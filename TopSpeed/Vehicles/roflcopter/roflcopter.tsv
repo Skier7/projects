@@ -2,7 +2,7 @@
 
 [meta]
 name=Rofl copter
-version=1.1
+version=1.0
 description=This is Microsoft Sam's roflcopter.
 
 [sounds]
@@ -17,7 +17,7 @@ shift_freq=38000
 pitch_curve_exponent=0.85
 
 [general]
-surface_traction_factor=0.10
+surface_traction_factor=0.15
 max_speed=500
 has_wipers=1
 
@@ -41,8 +41,8 @@ power_factor=1.00
 
 [engine_rot]
 inertia_kgm2=0.18
-coupling_rate=20
-friction_base_nm=20
+coupling_rate=30
+friction_base_nm=15
 friction_linear_nm_per_krpm=0
 friction_quadratic_nm_per_krpm2=0
 idle_control_window_rpm=200
@@ -54,20 +54,20 @@ overrun_curve_exponent=1.2
 brake_transfer_efficiency=0.85
 
 [resistance]
-drag_coefficient=0.30
-frontal_area=2.2
-Side_area=2.0
-rolling_resistance=0.010
-rolling_speed_factor=0.4
-wheel_side_drag_n=80
+drag_coefficient=0.10
+frontal_area=1.40
+Side_area=1.50
+rolling_resistance=0.008
+rolling_speed_factor=0.1
+wheel_side_drag_n=50
 wheel_side_drag_linear_n_per_mps=2.0
-driveline_drag_nm=0.15
+driveline_drag_nm=0.10
 driveline_viscous_drag_nm_per_krpm=0.025
 
 [torque_curve]
 preset=supercar_turbo
-5000rpm=600
-7000rpm=450
+5000rpm=1000
+7000rpm=2000
 
 [transmission]
 primary_type=manual
