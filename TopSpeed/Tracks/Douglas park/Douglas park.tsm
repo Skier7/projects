@@ -1,0 +1,104 @@
+[meta]
+name = Douglas Park
+version = 1
+weather = default
+ambience = noambience
+
+[weather: default]
+kind = sunny
+longitudinal_wind_mps = 0
+lateral_wind_mps = 0
+air_density = 1.225
+drafting_factor = 0.1
+temperature_c = 20
+humidity = 0.45
+pressure_kpa = 101.325
+visibility_m = 20000
+rain_gain = 0
+wind_gain = 0
+storm_gain = 0
+
+[room: outdoor_default]
+room_preset = outdoor_open
+reverb_gain = 0.1
+
+[segment: s1]
+type = straight
+surface = asphalt
+noise = none
+length = 300
+width = 20
+height = 0
+room = outdoor_default
+
+[segment: s2]
+type = easy_left
+surface = asphalt
+noise = none
+length = 350
+width = 20
+height = 0
+room = outdoor_default
+
+[segment: s3]
+type = straight
+surface = asphalt
+noise = none
+length = 800
+width = 20
+height = 0
+room = outdoor_default
+
+[segment: s4]
+type = easy_left
+surface = asphalt
+noise = none
+length = 350
+width = 20
+height = 0
+room = outdoor_default
+
+[segment: s6]
+type = straight
+surface = asphalt
+noise = none
+length = 350
+width = 20
+height = 0
+room = outdoor_default
+
+[segment: s7]
+type = straight
+surface = asphalt
+noise = none
+length = 150
+width = 20
+height = 0
+room = outdoor_default
+
+[segment: s8]
+type = straight
+surface = asphalt
+noise = none
+length = 200
+width = 20
+height = 0
+room = outdoor_default
+
+[segment: s9]
+type = easy_left
+surface = asphalt
+noise = none
+length = 350
+width = 20
+height = 0
+room = outdoor_default
+
+[segment: s10]
+type = straight
+surface = asphalt
+noise = none
+length = 800
+width = 20
+height = 0
+room = outdoor_default
