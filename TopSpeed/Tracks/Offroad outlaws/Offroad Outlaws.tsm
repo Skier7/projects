@@ -1,6 +1,6 @@
 [meta]
 name = Offroad Outlaws
-version = 2
+version = 3
 weather = default
 ambience = noambience
 
@@ -24,7 +24,7 @@ reverb_gain = 0.1
 
 [segment: s1]
 type = straight
-surface = asphalt
+surface = sand
 noise = none
 length = 300
 width = 50
@@ -33,7 +33,7 @@ room = outdoor_default
 
 [segment: s2]
 type = hairpin_right
-surface = asphalt
+surface = sand
 noise = none
 length = 350
 width = 50
@@ -42,7 +42,7 @@ room = outdoor_default
 
 [segment: s3]
 type = straight
-surface = asphalt
+surface = sand
 noise = runway
 length = 900
 width = 50
@@ -51,7 +51,7 @@ room = outdoor_default
 
 [segment: s4]
 type = hard_left
-surface = asphalt
+surface = sand
 noise = none
 length = 300
 width = 50
@@ -60,7 +60,7 @@ room = outdoor_default
 
 [segment: s6]
 type = straight
-surface = asphalt
+surface = sand
 noise = helicopter
 length = 350
 width = 50
@@ -78,7 +78,7 @@ room = outdoor_default
 
 [segment: s8]
 type = straight
-surface = asphalt
+surface = sand
 noise = helicopter
 length = 200
 width = 50
@@ -87,7 +87,7 @@ room = outdoor_default
 
 [segment: s9]
 type = hard_right
-surface = asphalt
+surface = sand
 noise = none
 length = 300
 width = 50
@@ -96,7 +96,7 @@ room = outdoor_default
 
 [segment: s10]
 type = straight
-surface = asphalt
+surface = sand
 noise = none
 length = 900
 width = 50
@@ -107,7 +107,7 @@ pit=pit_exit
 
 [segment: s11]
 type = hairpin_left
-surface = asphalt
+surface = sand
 noise = none
 length = 400
 width = 50
@@ -116,7 +116,7 @@ room = outdoor_default
 
 [segment: s12]
 type = straight
-surface = asphalt
+surface = sand
 noise = crowd
 length = 300
 width = 50
