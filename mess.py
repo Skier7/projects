@@ -1,3 +1,2 @@
-NVDA=input("This is a test to see if NVDA dies if there is to mutch repeted output. Any key to continue")
-for D in range(1,10001):
-    print(D)
+print("This is a mess of a program. Come on, what were you expecting?")
+print("Did you really thing this was gonna be a serious program?")
