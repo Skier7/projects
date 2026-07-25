@@ -1,6 +1,6 @@
 [meta]
 name = Snow Drag
-version = 2
+version = 3
 weather = default
 ambience = noambience
 
@@ -27,7 +27,7 @@ type = straight
 surface = snow
 noise = jet
 length = 2000
-width = 50
+width = 20
 height = 0
 room = outdoor_default
 
@@ -36,7 +36,7 @@ type = straight
 surface = snow
 noise = none
 length = 1000
-width = 50
+width = 20
 height = 0
 room = outdoor_default
 
@@ -45,7 +45,7 @@ type = straight
 surface = snow
 noise = none
 length = 1000
-width = 50
+width = 20
 height = 0
 room = outdoor_default
 
@@ -54,7 +54,7 @@ type = straight
 surface = snow
 noise = helicopter
 length = 1000
-width = 50
+width = 20
 height = 0
 room = outdoor_default
 
@@ -63,7 +63,7 @@ type = straight
 surface = snow
 noise = none
 length = 1000
-width = 50
+width = 20
 height = 0
 room = outdoor_default
 
@@ -72,7 +72,7 @@ type = straight
 surface = snow
 noise = crowd
 length = 1000
-width = 50
+width = 20
 height = 0
 room = outdoor_default
 

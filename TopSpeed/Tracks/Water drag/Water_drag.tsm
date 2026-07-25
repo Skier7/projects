@@ -1,6 +1,6 @@
 [meta]
 name = Water Drag
-version = 3
+version = 4
 weather = default
 ambience = noambience
 
@@ -27,7 +27,7 @@ type = straight
 surface = water
 noise = river
 length = 2000
-width = 70
+width = 20
 height = 0
 room = outdoor_default
 
@@ -36,7 +36,7 @@ type = straight
 surface = water
 noise = none
 length = 1000
-width = 70
+width = 20
 height = 0
 room = outdoor_default
 
@@ -45,7 +45,7 @@ type = straight
 surface = water
 noise = none
 length = 1000
-width = 70
+width = 20
 height = 0
 room = outdoor_default
 
@@ -54,6 +54,6 @@ type = straight
 surface = water
 noise = crowd
 length = 1000
-width = 70
+width = 20
 height = 0
 room = outdoor_default
