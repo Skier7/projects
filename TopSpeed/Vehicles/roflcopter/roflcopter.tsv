@@ -30,14 +30,15 @@ engine_braking=0.65
 mass_kg=1500
 drivetrain_efficiency=0.90
 launch_rpm=3000
+fuel=80
 
 [torque]
-engine_braking_torque=450
+engine_braking_torque=500
 peak_torque=3000
-peak_torque_rpm=2500
+peak_torque_rpm=5000
 idle_torque=150
-redline_torque=2500
-power_factor=1.00
+redline_torque=3000
+power_factor=1.05
 
 [engine_rot]
 inertia_kgm2=0.18
@@ -57,7 +58,7 @@ brake_transfer_efficiency=0.85
 drag_coefficient=0.10
 frontal_area=1.40
 Side_area=1.50
-rolling_resistance=0.008
+rolling_resistance=0.001
 rolling_speed_factor=0.1
 wheel_side_drag_n=50
 wheel_side_drag_linear_n_per_mps=2.0
@@ -82,11 +83,11 @@ reverse_gear_ratio=2.90
 brake_strength=5.00
 
 [gears]
-number_of_gears=6
-gear_ratios=3.50,2.95,2.50,1.40,1.05,0.80
+number_of_gears=7
+gear_ratios=3.50,2.95,2.50,1.40,1.05,0.80,0.70
 [steering]
 steering_response=5.0
-wheelbase=2.75
+wheelbase=2.70
 max_steer_deg=60
 high_speed_stability=0.90
 high_speed_steer_gain=0.90
