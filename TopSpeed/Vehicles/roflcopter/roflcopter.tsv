@@ -30,7 +30,7 @@ engine_braking=0.65
 mass_kg=1500
 drivetrain_efficiency=0.90
 launch_rpm=3000
-fuel=80
+fuel=300
 
 [torque]
 engine_braking_torque=500
@@ -41,7 +41,7 @@ redline_torque=3000
 power_factor=1.05
 
 [engine_rot]
-inertia_kgm2=0.18
+inertia_kgm2=5.0
 coupling_rate=30
 friction_base_nm=15
 friction_linear_nm_per_krpm=0
