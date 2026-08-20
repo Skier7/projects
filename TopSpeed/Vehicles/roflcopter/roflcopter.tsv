@@ -84,7 +84,7 @@ brake_strength=5.00
 
 [gears]
 number_of_gears=7
-gear_ratios=3.50,2.95,2.50,1.40,1.05,0.80,0.70
+gear_ratios=3.50,2.95,2.50,1.40,1.05,0.80,0.65
 [steering]
 steering_response=5.0
 wheelbase=2.70
