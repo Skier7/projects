@@ -20,14 +20,14 @@ storm_gain = 0
 
 [room: outdoor_default]
 room_preset = outdoor_open
-reverb_gain = 0.1
+reverb_gain = 40
 
 [segment: seg1]
 type = straight
 surface = asphalt
 noise = owl
 length = 2000
-width = 15
+width = 10
 height = 0
 room = outdoor_default
 
@@ -36,7 +36,7 @@ type = straight
 surface = asphalt
 noise = jet
 length = 1000
-width = 15
+width = 10
 height = 0
 room = outdoor_default
 
@@ -45,7 +45,7 @@ type = straight
 surface = asphalt
 noise = jet
 length = 1000
-width = 15
+width = 10
 height = 0
 room = outdoor_default
 
@@ -54,7 +54,7 @@ type = straight
 surface = asphalt
 noise = helicopter
 length = 1000
-width = 15
+width = 10
 height = 0
 room = outdoor_default
 
@@ -63,7 +63,7 @@ type = straight
 surface = asphalt
 noise = jet
 length = 1000
-width = 15
+width = 10
 height = 0
 room = outdoor_default
 
@@ -71,8 +71,8 @@ room = outdoor_default
 type = straight
 surface = asphalt
 noise = crowd
-length = 1000
-width = 15
+length = 1100
+width = 10
 height = 0
 room = outdoor_default
 
