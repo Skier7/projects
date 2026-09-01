@@ -6,7 +6,7 @@ print(f"hello {name}")
 while True:
     color=input("what color is best? green, red, orange, pink or gray, q to quit")
     if color == "q":
-        print("peace")
+        print("good fucking night")
         quit()  
     elif color == "green":
         print("you made the right choice")
