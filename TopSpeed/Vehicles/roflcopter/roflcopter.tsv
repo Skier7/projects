@@ -38,7 +38,7 @@ peak_torque=3000
 peak_torque_rpm=5000
 idle_torque=150
 redline_torque=3000
-power_factor=1.05
+power_factor=2
 
 [engine_rot]
 inertia_kgm2=5.0
