@@ -49,7 +49,7 @@ power_factor = 2.0
 
 [engine_rot]
 inertia_kgm2 = 5.0
-coupling_rate = 30
+coupling_rate = 50
 friction_base_nm = 15
 friction_linear_nm_per_krpm = 0
 friction_quadratic_nm_per_krpm2 = 0
