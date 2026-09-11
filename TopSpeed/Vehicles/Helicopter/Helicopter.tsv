@@ -1,19 +1,18 @@
 # Top Speed vehicle file
 
 [meta]
-name=F11 fighterjet
+name=Helicopter
 version=1
-description=This is the F11 fighter jet from TopSpeed 3 made to work in TopSpeed remake.
-
+description=This is a Helicopter from topspeed 3 trying to work in the new version.
 [sounds]
-engine=jet_engine.wav
-start=jet_start.wav
-horn=jet_horn.wav
-brake=builtin1
-crash=crash.wav
-idle_freq=30000
-top_freq=120000
-shift_freq=60000
+engine=helicopterengine.wav
+start=helicopterstart.wav
+horn=helicopterhorn.wav
+brake=helicopterbrake.wav
+crash=helicoptercrash.wav
+idle_freq=44100
+top_freq=65000
+shift_freq=47000
 pitch_curve_exponent=0.85
 
 [general]
@@ -128,8 +127,8 @@ steering_curve=1.50
 transient_damping=1.00
 
 [dimensions]
-vehicle_width=1
-vehicle_length=20
+vehicle_width=5
+vehicle_length=10
 
 [tires]
 tire_width=250
