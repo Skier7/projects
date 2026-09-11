@@ -11,9 +11,9 @@ version = 1
 description = Dodge Ram pickup truck converted from the original VHC configuration.
 
 [sounds]
-engine = dodge ram engine.wav
-start = dodge ram start.wav
-throttle = dodge ram go.wav
+engine = dodgeramengine.wav
+start = dodgeramstart.wav
+throttle = dodgeramgo.wav
 horn = trainhorn.wav
 crash = builtin3
 brake = builtin1
