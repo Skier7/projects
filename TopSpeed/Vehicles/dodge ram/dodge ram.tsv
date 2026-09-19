@@ -110,7 +110,7 @@ high_speed_steer_start_kph = 110
 high_speed_steer_full_kph = 189
 
 [tire_model]
-tire_grip = 1
+tire_grip = 3
 lateral_grip = 0.95
 combined_grip_penalty = 0.30
 slip_angle_peak_deg = 9.0
