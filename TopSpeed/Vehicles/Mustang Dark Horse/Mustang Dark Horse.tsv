@@ -3,10 +3,10 @@ name=Mustang Dark Horse
 version=1
 description=Trying to make as close of a vehicle to the Ford Mustang from the game no limit drag racing 2 as TopSpeed remake allows.
 [sounds]
-engine=mustangV8engine.wav
-throttle=mustangV8throttle.wav
-start=mustangV8start.wav
-horn=mustangV8horn.wav
+engine=mustangv8engine.wav
+throttle=mustangv8throttle.wav
+start=mustangv8start.wav
+horn=mustangv8horn.wav
 brake=builtin1
 crash=builtin1
 idle_freq=44000
