@@ -3,9 +3,9 @@ name=Mustang GT
 version=1
 description=A Mustang GT.
 [sounds]
-engine=mustanggtengine.wav
-start=mustanggtstart.wav
-horn=mustanggthorn.wav
+engine=gtengine.wav
+start=gtstart.wav
+horn=gthorn.wav
 brake=builtin1
 crash=builtin1
 idle_freq=8000
