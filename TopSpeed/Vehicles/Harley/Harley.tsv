@@ -1,6 +1,6 @@
 [meta]
 name=Harley Spiter
-version=1.0
+version=1.5
 description=A fucking Harley, that's all there is to say.
 
 [sounds]
@@ -30,7 +30,7 @@ mass_kg=240
 drivetrain_efficiency=0.95
 launch_rpm=3200
 fuel=100
-engine_displacement_l=1.9
+engine_displacement_l=0.2
 
 [torque]
 engine_braking_torque=2500
