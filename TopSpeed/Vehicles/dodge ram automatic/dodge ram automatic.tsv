@@ -1,7 +1,7 @@
 [meta]
-name = dodge ram Automadic
+name = dodge ram Automatic
 version = 1
-description = Dodge Ram pickup truck converted from the original VHC configuratio but automadic nown.
+description = Dodge Ram pickup truck converted from the original VHC configuratio but automatic now.
 
 [sounds]
 engine = dodgeramengine.wav
