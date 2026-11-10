@@ -23,13 +23,13 @@ has_wipers=1
 
 [engine]
 idle_rpm=900
-max_rpm=7000
-rev_limiter=6900
-auto_shift_rpm=6500
+max_rpm=10000
+rev_limiter=10000
+auto_shift_rpm=9500
 engine_braking=0.65
-mass_kg=1500
-drivetrain_efficiency=0.90
-launch_rpm=1300
+mass_kg=10000
+drivetrain_efficiency=1.0
+launch_rpm=9400
 fuel=300
 
 [gears]
@@ -40,13 +40,13 @@ gear_ratios=1.00
 engine_braking_torque=500
 peak_torque=3000
 peak_torque_rpm=5000
-idle_torque=150
+idle_torque=500
 redline_torque=3000
-power_factor=1.05
+power_factor=2.0
 
 [engine_rot]
 inertia_kgm2=5.0
-coupling_rate=30
+coupling_rate=50
 friction_base_nm=15
 friction_linear_nm_per_krpm=0
 friction_quadratic_nm_per_krpm2=0
@@ -71,8 +71,8 @@ driveline_viscous_drag_nm_per_krpm=0.025
 
 [torque_curve]
 preset=supercar_turbo
-5000rpm=1000
-7000rpm=2000
+5000rpm=3000
+7000rpm=5000
 
 [transmission]
 primary_type=cvt
