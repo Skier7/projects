@@ -74,13 +74,13 @@ supported_types = atc
 shift_on_demand = 1
 
 [transmission_atc]
-creep_accel_kphps = 0.70
+creep_accel_kphps = 12
 launch_coupling_min = 0.22
 launch_coupling_max = 0.80
-lock_speed_kph = 38
-lock_throttle_min = 0.30
-shift_release_coupling = 0.38
-engage_rate = 3.5
+lock_speed_kph = 10
+lock_throttle_min = 0.35
+shift_release_coupling = 0.30
+engage_rate = 2.0
 disengage_rate = 6.0
 
 [drivetrain]
